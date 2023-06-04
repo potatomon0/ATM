@@ -1,0 +1,69 @@
+.mainContainer{
+    border: solid black;
+    height:80vh;
+    /* background-image: url("https://go.distance.ncsu.edu/gd203/wp-content/uploads/2020/04/704a1e534e8dc0138eee3ded449555d5-860x860.png"); */
+    background-color:rgb(26, 132, 136);
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    margin-top:100px;
+}
+h1,p{
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+.screen{
+    border:solid green;
+    height:60px;
+    background-color: rgba(18, 101, 18, 0.709);
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:20px;
+    text-align: center;
+    /* padding-top:px; */
+    color:white;
+    font-size: 50px;
+}
+.option{
+    border: solid red;
+    background-color:rgba(94, 187, 227, 0.687);
+    height:90px;
+    width:150px;
+    justify-content: space-evenly;
+    margin:10px;
+    font-size: 25px;
+    color:white;
+}
+.key{
+    border: solid orange;
+    justify-content: space-evenly;
+    height:70px;
+    width:130px;
+    font-size:20px;
+    font-weight: bold;
+    background-color:rgb(53, 154, 177);
+    color:white;
+    margin-top:15px;
+    border-radius: 30%;
+}
+.key:hover{
+    background-color: rgb(41, 103, 179);
+}
+.rows{
+    border: solid red;
+    display:flex;
+    margin-left:60px;
+    margin-right:60px;
+    height:90px;
+    justify-content: space-evenly;
+}
+.goBack{
+    border:solid green;
+    margin-left:480px;
+    margin-top:10px;
+    background-color:rgb(53, 154, 177);
+    color:white;
+    height:45px;
+    width:95px;
+    border-radius:20%;
+}
