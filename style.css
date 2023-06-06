@@ -1,13 +1,13 @@
 .mainContainer{
     border: solid black;
-    height:80vh;
+    height:85vh;
     /* background-image: url("https://go.distance.ncsu.edu/gd203/wp-content/uploads/2020/04/704a1e534e8dc0138eee3ded449555d5-860x860.png"); */
     background-color:rgb(26, 132, 136);
     background-size: 600px 600px;
     background-repeat: no-repeat;
     margin-top:100px;
 }
-h1,p{
+h1,p,.balance{
     text-align:center;
     color:white;
     font-size:30px;

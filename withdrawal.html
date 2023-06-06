@@ -12,12 +12,11 @@
 
 <body>
     <div class="mainContainer">
-        <p>Your Balance is: $1000</p>
+        <p>Your Balance is: <div class="balance"></div></p>
         <p>Enter the amount you would like to withdraw:</p>
-        <div class="screen">
-        </div>
+        <div class="screen"></div>
         <div class="rows">
-            <button type="button" class="key" onclick="uploadToScreen('1');storeNum('1')">1</button>
+            <button type="button" class="key" onclick="uploadToScreen('1')">1</button>
             <button type="button" class="key" onclick="uploadToScreen('2')">2</button>
             <button type="button" class="key" onclick="uploadToScreen('3')">3</button>
         </div>
@@ -34,7 +33,7 @@
         <div class="rows">
             <button type="button" class="key" onclick="uploadToScreen('0')">0</button>
             <button type="button" class="key" onclick="clearScreen()">C</button>
-            <button type="button" class="key" onclick="uploadToScreen()">Enter</button>
+            <button type="button" class="key" onclick="withdrawal()">Enter</button>
         </div>
         <button type = "button" class="goBack" onclick="document.location = 'index.html'">Go Back</button>
     </div>
